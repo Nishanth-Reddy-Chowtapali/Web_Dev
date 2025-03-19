@@ -6,21 +6,67 @@
     <title>CSS Selectors Example</title>
 
     <style>
-        /* 1. Universal Selector */
-        /* 2. Type Selector */
-        /* 3. Class Selector */
-        /* 4. ID Selector */
-        /* 5. Attribute Selector */
-        /* 6. Descendent Selector */
-        /* 7. Child Selector */
-        /* 8. Adjacent sibling Selector */
-        /* 9. General Sibling Selector */
-        /* 10. Pseuodo-class Selector */
-        /* 11. Pseudo-element Selector */
-        /* 12. Grouping Selector */
+      /* 1. Universal Selector */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* 2. Type Selector */
+      p {
+        font-size: 16px;
+        margin: 10px 20px 10px 20px;
+      }
+      /* 3. Class Selector */
+      .highlight {
+        background-color: #21a2c9;
+      }
+      /* 4. ID Selector */
+      #header {
+        background-color: #a1e686;
+      }
+      /* 5. Attribute Selector */
+      input[type="text"] {
+        border: 1px solid #21a2c9;
+      }
+      /* 6. Descendent Selector */
+      article p {
+        font-style: italic;
+        background-color: #1a1a1a;
+        color: white;
+        size: 10px;
+      }
+
+      /* 7. Child Selector */
+      ul > li {
+        list-style-type: square;
+      }
+      /* 8. Adjacent sibling Selector */
+      h1 + p {
+        font-weight: bold;
+      }
+      /* 9. General Sibling Selector */
+      h2 ~ p {
+        color: red;
+      }
+
+      /* 10. Pseuodo-class Selector */
+      a:hover {
+        background-color: #303f68;
+      }
+
+      /* 11. Pseudo-element Selector */
+      p::first-letter {
+        font-weight: bold;
+        font-size: 30px;
+      }
+      /* 12. Grouping Selector */
+      h1,
+      h2,
+      h3 {
+        color: orange;
+      }
     </style>
-
-
   </head>
   <body>
     <header id="header">This is a header</header>
