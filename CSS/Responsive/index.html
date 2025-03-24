@@ -24,8 +24,19 @@
         background-color: #7e0a93;
       }
       @media (max-width: 600px) {
+        body {
+          align-items: flex-start;
+        }
         .responsive-div {
           background-color: #3498db;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 1024) {
+        body {
+          align-items: center;
+        }
+        .responsive-div {
+          background-color: #e74c3c;
         }
       }
     </style>
