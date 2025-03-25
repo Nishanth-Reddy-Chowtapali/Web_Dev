@@ -19,6 +19,7 @@ Downloads/
 Favorites/
 Links/
 Music/
+node_modules/
 
 # Ignore hidden files and logs
 .DS_Store
