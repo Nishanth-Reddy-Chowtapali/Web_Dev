@@ -5,5 +5,5 @@ const message = (name, age) => {
   console.log(`You are ${age} years old`);
 };
 
-hello();
-message("Nishanth", 28);
+//hello();
+//message("Nishanth", 28);

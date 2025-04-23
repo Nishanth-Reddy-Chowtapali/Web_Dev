@@ -63,4 +63,4 @@ function createTeaMaker(name) {
 
 let teaMaker = createTeaMaker("hitesh");
 let result = teaMaker("green tea");
-console.log(result);
+//console.log(result);
